@@ -44,7 +44,7 @@ fieldset {
 
 .white-card {
     width: 70%;
-    height: 40rem;
+    height: 45rem;
     margin-top: 8rem;
     background: var(--White);
     padding: 3.5rem;
@@ -150,6 +150,33 @@ fieldset {
     background: var(--Dark-grayish-cyan);
     cursor: not-allowed;
 }
+
+
+
+.reset {
+    border: none;
+    outline: none;
+    background: var(--Strong-cyan);
+    color: var(--Very-dark-cyan);
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reset:hover {
+    background: var(--Light-grayish-cyan);
+}
+
+.reset:disabled {
+    background: var(--Dark-grayish-cyan);
+    cursor: not-allowed;
+}
+
 
 .blue-card #result p {
             font-size: 3.6rem;
